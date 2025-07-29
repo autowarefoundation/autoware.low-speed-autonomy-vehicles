@@ -1,0 +1,4 @@
+nav:
+  - Tab1: index.md
+  - Tab2: system-configuration
+  - Tab3: odd-definition
