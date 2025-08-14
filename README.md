@@ -13,8 +13,52 @@
 [![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://autoware.org/)
 </div>
 
-# Autoware - Low Speed Autonomy Vehicles
-The repo describes the goal, use case, and design of low speed autonomy vehicles using Autoware.
+# Autoware- Low-speed Autonomy project 
 
-To learn more about how to participate in this project, please read the [onboarding guide](/ONBOARDING.md)
+> **Open-source Low Speed Autonomous Driving Stack** built on top of [Autoware Core](https://autoware.org/), targeting TRL-6 maturity, for use-cases such as warehousing, cargo transport, and industrial logistics.
+
+---
+
+## 📌 Overview
+
+The **LSA project** aims to deliver a production-feasible low-speed autonomous driving system by building upon the Autoware Core framework and tailoring it for low speed applications (≤ 25 km/h). This project is initiated in collaboration with the **AWF Taiwan**, integrating the stack into a real-world vehicle and testing it with an anchor customer.
+
+---
+
+## 🎯 Goals
+
+- Define a **clear Operational Design Domain (ODD)** for low speed autonomy in industrial and logistics scenarios.
+- Build a **cost-effective perception and autonomy stack** optimized for ≤ 25 km/h use-cases.
+- Demonstrate functionality via **simulation** and **real-world vehicle integration**.
+- Promote **open-source collaboration** within the AWF LSA work group and broader community.
+
+---
+
+## 🗺 2025 Roadmap & Phases
+
+### **Phase 1 – Requirements & ODD Definition**
+- Define target ODD: environment types, max speed, weather, operational constraints.
+- Set cost constraints for production deployment.
+- Refer to safety standards, ex. ISO 22737.
+
+### **Phase 2 – Design sensor configuration and deploy it on a prototype vehicle**
+- Sensor configuration, and ECU design.
+- Prototype vehicle setup.
+- Vehicle DBW integration, and vehicle interface development.
+
+### **Phase 3 – Full Stack dev. & Simulation Demo**
+- Implement Localization and control modules.
+- Implement perception and planning modules.
+- Integrate with simulator, ex. AWSIM, Carla.
+- Deliver a video demo in simulation.
+
+### **Phase 4 – Real-world Vehicle Integration & Testing**
+- Deploy stack to the prototype vehicle.
+- Conduct field testing.
+- Iterate and improve based on real-world environment feedback.
+
+---
+
+## 📂 Project Structure (Initial Proposal)
+
 
